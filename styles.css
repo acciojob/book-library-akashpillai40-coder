@@ -4,8 +4,9 @@ body{
 }
 .book-library{
 	background-color:#ffffff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-h2{
+h1{
 	text-align:center;
 }
 .price{
@@ -14,9 +15,11 @@ h2{
 	margin-bottom:20px;
 	color:white;
 	padding:3px;
+	border-radius:5px;
 }
-.author{
-	color:#777777;
+
+.author {
+  color: #777777;
 }
 .book img {
   display: block;
